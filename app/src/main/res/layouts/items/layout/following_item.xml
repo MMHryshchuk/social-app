@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <com.clearsoft.welivre.ui.wigets.RoundedImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/following_item_image"
+        android:layout_width="@dimen/activity_messenger_image_size"
+        android:layout_height="@dimen/activity_messenger_image_size"
+        android:layout_margin="@dimen/activity_messenger_margin" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/following_item_image"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/following_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aaron Armstrong"
+            android:textColor="@color/colorPrimaryWhite"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/following_item_friends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="423 friends"
+            android:textColor="@color/colorPrimaryWhite"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/following_item_btn_unfollow"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/round_stroke_btn_white"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:text="UNFOLLOW"
+        android:textColor="@color/colorPrimaryWhite" />
+
+
+    <View
+        android:alpha="0.2"
+        android:background="@color/colorPrimaryWhite"
+        android:layout_toRightOf="@id/following_item_image"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</RelativeLayout>

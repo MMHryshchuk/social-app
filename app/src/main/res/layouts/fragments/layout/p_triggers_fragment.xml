@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/p_triggers_view"/>
+
+    <ScrollView
+        android:layout_below="@+id/p_triggers_view"
+        android:id="@+id/plan_trigger_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:isScrollContainer="true"
+            android:orientation="vertical"
+            android:scrollbars="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        app:cardBackgroundColor="@android:color/white"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="5dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:contentPadding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="40dp"
+                                android:text="Define your Smoking Triggers to avoid!"
+                                android:textColor="@android:color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="20dp"
+                                android:alpha="0.61"
+                                android:gravity="center_horizontal"
+                                android:text="Knowing what is the cause of smoking, help keep you away from Triggers. When you are smoking, you will want to stay completely away from your triggers."
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="41dp">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="-50dp"
+                                        android:layout_marginRight="-50dp"
+                                        android:background="@drawable/trigger_tab_bg" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <LinearLayout
+                                            android:id="@+id/plan_trigger_emotional_tab_item"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:gravity="center_horizontal"
+                                            android:orientation="vertical">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <TextView
+                                                    android:gravity="center"
+                                                    android:id="@+id/p_triggers_fragment_emotional_txt"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_centerInParent="true"
+                                                    android:text="Emotional"
+                                                    android:textSize="15sp" />
+
+                                                <View
+                                                    android:id="@+id/p_triggers_fragment_emotional_divider"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="3.5dp"
+                                                    android:layout_alignParentBottom="true"
+                                                    android:layout_marginBottom="3dp"
+                                                    android:layout_marginLeft="6dp"
+                                                    android:layout_marginRight="6dp"
+                                                    android:background="#868686" />
+
+                                            </RelativeLayout>
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/plan_trigger_habits_tab_item"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:gravity="center_horizontal"
+                                            android:orientation="vertical">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <TextView
+                                                    android:gravity="center"
+                                                    android:id="@+id/p_triggers_fragment_habits_txt"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_centerInParent="true"
+                                                    android:text="Habits"
+                                                    android:textSize="15sp" />
+
+                                                <View
+                                                    android:id="@+id/p_triggers_fragment_habits_divider"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="3.5dp"
+                                                    android:layout_alignParentBottom="true"
+                                                    android:layout_marginBottom="3dp"
+                                                    android:layout_marginLeft="6dp"
+                                                    android:layout_marginRight="6dp"
+                                                    android:background="#868686" />
+
+                                            </RelativeLayout>
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/plan_trigger_social_tab_item"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:gravity="center_horizontal"
+                                            android:orientation="vertical">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <TextView
+                                                    android:gravity="center"
+                                                    android:id="@+id/p_triggers_fragment_social_txt"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_centerInParent="true"
+                                                    android:text="Social"
+                                                    android:textColor="@android:color/black"
+                                                    android:textSize="15sp" />
+
+                                                <View
+                                                    android:id="@+id/p_triggers_fragment_social_divider"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="3.5dp"
+                                                    android:layout_alignParentBottom="true"
+                                                    android:layout_marginBottom="3dp"
+                                                    android:layout_marginLeft="6dp"
+                                                    android:layout_marginRight="6dp"
+                                                    android:background="#868686" />
+
+                                            </RelativeLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <include layout="@layout/trigger_emotional_view" />
+
+                                <include layout="@layout/trigger_habits_view" />
+
+                                <include layout="@layout/trigger_social_view" />
+
+                            </FrameLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginTop="20dp"
+                                android:text="I feel like smoking when I am:"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp" />
+
+                            <FrameLayout
+                                android:id="@+id/p_triggers_fragment_trigger_frame"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                            </FrameLayout>
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginTop="10dp">
+
+                                <FrameLayout
+                                    android:id="@+id/p_triggers_fragment_back_btn_frame"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginBottom="20dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/plan_circle_btn_green">
+
+                                    <android.support.v7.widget.AppCompatImageView
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:layout_gravity="center"
+                                        app:srcCompat="@drawable/ic_arrow_forward_left" />
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:id="@+id/p_triggers_fragment_next_btn_frame"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginBottom="20dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/plan_circle_btn_green">
+
+                                    <android.support.v7.widget.AppCompatImageView
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:layout_gravity="center"
+                                        app:srcCompat="@drawable/ic_arrow_forward_right" />
+                                </FrameLayout>
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="196dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/round_btn_green"
+                    android:gravity="center"
+                    android:text="TRIGGERS"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

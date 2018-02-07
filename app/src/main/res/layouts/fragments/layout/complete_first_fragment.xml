@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_complete"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/complete_fragment_margin_right_left"
+            android:layout_marginRight="@dimen/complete_fragment_margin_right_left"
+            android:fillViewport="true">
+
+            <TextView
+                android:layout_marginBottom="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="@string/complete_title"
+                android:textColor="@android:color/white"
+                android:textSize="17.5sp" />
+
+           <include layout="@layout/complete_first_view"/>
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/complete_first_title"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/complete_choice_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/complete_fragment_cell_height">
+
+                    <ImageView
+                        android:id="@+id/complete_choice_1_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/situation_cell_bg"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="@dimen/complete_fragment_cell_margin_left_right"
+                        android:layout_marginRight="@dimen/complete_fragment_cell_margin_left_right"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/complete_choice_1_check_box"
+                            android:layout_width="@dimen/complete_fragment_cell_checkbox_size"
+                            android:layout_height="@dimen/complete_fragment_cell_checkbox_size"
+                            android:src="@drawable/situation_uncheck_ic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/complete_fragment_cell_checkbox_margin"
+                            android:text="@string/complete_first_choice_1"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/complete_fragment_cell_text_size" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/complete_choice_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/complete_fragment_cell_height">
+
+                    <ImageView
+                        android:id="@+id/complete_choice_2_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/situation_cell_bg"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="@dimen/complete_fragment_cell_margin_left_right"
+                        android:layout_marginRight="@dimen/complete_fragment_cell_margin_left_right"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/complete_choice_2_check_box"
+                            android:layout_width="@dimen/complete_fragment_cell_checkbox_size"
+                            android:layout_height="@dimen/complete_fragment_cell_checkbox_size"
+                            android:src="@drawable/situation_uncheck_ic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/complete_fragment_cell_checkbox_margin"
+                            android:text="@string/complete_first_choice_2"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/complete_fragment_cell_text_size" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/complete_choice_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/complete_fragment_cell_height">
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/complete_choice_3_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/situation_cell_bg" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="@dimen/complete_fragment_cell_margin_left_right"
+                        android:layout_marginRight="@dimen/complete_fragment_cell_margin_left_right"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/complete_choice_3_check_box"
+                            android:layout_width="@dimen/complete_fragment_cell_checkbox_size"
+                            android:layout_height="@dimen/complete_fragment_cell_checkbox_size"
+                            android:src="@drawable/situation_uncheck_ic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/complete_fragment_cell_checkbox_margin"
+                            android:text="@string/complete_first_choice_3"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/complete_fragment_cell_text_size" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/complete_choice_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/complete_fragment_cell_height">
+
+                    <ImageView
+                        android:id="@+id/complete_choice_4_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/situation_cell_bg"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="@dimen/complete_fragment_cell_margin_left_right"
+                        android:layout_marginRight="@dimen/complete_fragment_cell_margin_left_right"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/complete_choice_4_check_box"
+                            android:layout_width="@dimen/complete_fragment_cell_checkbox_size"
+                            android:layout_height="@dimen/complete_fragment_cell_checkbox_size"
+                            android:src="@drawable/situation_uncheck_ic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/complete_fragment_cell_checkbox_margin"
+                            android:text="@string/complete_first_choice_4"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/complete_fragment_cell_text_size" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/complete_choice_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/complete_fragment_cell_height">
+
+                    <ImageView
+                        android:id="@+id/complete_choice_5_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/situation_cell_bg"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="@dimen/complete_fragment_cell_margin_left_right"
+                        android:layout_marginRight="@dimen/complete_fragment_cell_margin_left_right"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/complete_choice_5_check_box"
+                            android:layout_width="@dimen/complete_fragment_cell_checkbox_size"
+                            android:layout_height="@dimen/complete_fragment_cell_checkbox_size"
+                            android:src="@drawable/situation_uncheck_ic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/complete_fragment_cell_checkbox_margin"
+                            android:text="@string/complete_first_choice_5"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/complete_fragment_cell_text_size" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/complete_choice_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/complete_fragment_cell_height">
+
+                    <ImageView
+                        android:id="@+id/complete_choice_6_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/situation_cell_bg"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="@dimen/complete_fragment_cell_margin_left_right"
+                        android:layout_marginRight="@dimen/complete_fragment_cell_margin_left_right"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/complete_choice_6_check_box"
+                            android:layout_width="@dimen/complete_fragment_cell_checkbox_size"
+                            android:layout_height="@dimen/complete_fragment_cell_checkbox_size"
+                            android:src="@drawable/situation_uncheck_ic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/complete_fragment_cell_checkbox_margin"
+                            android:text="@string/complete_first_choice_6"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/complete_fragment_cell_text_size" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/complete_first_fragment_next"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/round_stroke_btn_white"
+                    android:gravity="center"
+                    android:text="@string/complete_next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+</RelativeLayout>

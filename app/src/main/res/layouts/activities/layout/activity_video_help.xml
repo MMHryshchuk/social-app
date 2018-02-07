@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBackgroundBlue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_video_help"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/toolbar_video_help"
+        android:id="@+id/activity_video_help_recycler"
+        android:layout_marginBottom="@dimen/activity_home_tab_panel_height"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <include layout="@layout/home_panel"/>
+
+
+</RelativeLayout>

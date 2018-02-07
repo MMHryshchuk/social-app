@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/p_motivation_view"/>
+
+    <ScrollView
+        android:layout_below="@+id/p_motivation_view"
+        android:id="@+id/plan_motivation_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true"
+            android:orientation="vertical"
+            android:scrollbars="vertical"
+            android:animateLayoutChanges="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        app:cardBackgroundColor="@android:color/white"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="5dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:contentPadding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="40dp"
+                                android:text="Define Your Motivations to Quit Smoking"
+                                android:textColor="@android:color/black"
+                                android:textSize="15sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Select your motivations to quit smoking.\nThey will be added to your plan."
+                                android:layout_margin="20dp"
+                                android:textSize="14sp"
+                                android:gravity="center_horizontal"
+                                android:textColor="@android:color/black"
+                                android:alpha="0.61"/>
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/p_motivation_fragment_recycler"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </android.support.v7.widget.RecyclerView>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp">
+
+                                <FrameLayout
+                                    android:id="@+id/p_motivation_fragment_back_btn_frame"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:background="@drawable/plan_circle_btn_green"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="20dp">
+
+                                    <android.support.v7.widget.AppCompatImageView
+                                        app:srcCompat="@drawable/ic_arrow_forward_left"
+                                        android:layout_gravity="center"
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp" />
+                                </FrameLayout>
+
+                                <FrameLayout
+                                    android:id="@+id/p_motivation_fragment_next_btn_frame"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_alignParentRight="true"
+                                    android:background="@drawable/plan_circle_btn_green"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="20dp">
+
+                                    <android.support.v7.widget.AppCompatImageView
+                                        app:srcCompat="@drawable/ic_arrow_forward_right"
+                                        android:layout_gravity="center"
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp" />
+                                </FrameLayout>
+
+
+
+                            </RelativeLayout>
+
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="196dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/round_btn_green"
+                    android:layout_centerHorizontal="true"
+                    android:text="MOTIVATIONS"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

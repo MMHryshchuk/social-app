@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="splash_skip">Skip</string>
+    <string name="splash_back">Back</string>
+    <string name="splash_next">Next</string>
+    <string name="splash_title_0">Welcome to WeLivre!</string>
+    <string name="splash_description_0">Congratulations, you`ve already taken a big step towards you freedom! Lets go together win this battle!</string>
+    <string name="splash_title_1">On the road to freedom</string>
+    <string name="splash_description_1">To succeed at something, it is fundamental to have a plan. Lets together draw your plan to quit smoking. Set our stop date, motivation, triggers, fissures and assistances.</string>
+    <string name="splash_title_2">Learn with Exclusive Content</string>
+    <string name="splash_description_2">Knowledge is the fundamental weapon for those who wish to evolve. And for that, you will have access to exclusive learning content.</string>
+    <string name="splash_title_3">A social network for people like you!</string>
+    <string name="splash_description_3"> Giving and receiving support is essential to the success of this challenge. Get access to a community of people who are on the same journey as you.</string>
+    <string name="splash_title_4">SOS</string>
+    <string name="splash_description_4">When you are in a craving time, open the SOS function and have access to tips, group suppot, and motivations to help at this crucial time.</string>
+
+
+</resources>

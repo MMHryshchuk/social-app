@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBackgroundBlue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_plan_title"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryWhite"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="My Plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_below="@+id/activity_plan_title"
+        android:layout_marginTop="12dp"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:visibility="gone"
+        android:background="@color/colorBackgroundTransparent"
+        android:id="@+id/activity_plan_progress_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.clearsoft.welivre.ui.wigets.WhiteProgressBar
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+</RelativeLayout>

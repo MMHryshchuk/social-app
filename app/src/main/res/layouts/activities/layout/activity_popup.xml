@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBackgroundTransparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/activity_popup_free_frame"
+        android:layout_above="@+id/activity_popup_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_popup_container"
+        android:background="@color/colorPrimaryWhite"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/activity_popup_frame1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/activity_popup_icon_1"
+                android:padding="@dimen/icon_padding"
+                app:srcCompat="@drawable/ic_chat_bubble"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size" />
+
+            <TextView
+                android:id="@+id/activity_popup_txt_1"
+                android:textSize="16sp"
+                android:text="Chat with Alexandra Jones"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_popup_frame2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/activity_popup_icon_2"
+                android:padding="@dimen/icon_padding"
+                app:srcCompat="@drawable/ic_follower"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size" />
+
+            <TextView
+                android:id="@+id/activity_popup_txt_2"
+                android:textSize="16sp"
+                android:text="Follow Alexandra Jones"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_video_help"
+    android:background="@color/colorToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Video Help"
+            android:id="@+id/toolbar_video_help_txt"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryWhite"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/toolbar_video_help_back_btn"
+            app:srcCompat="@drawable/ic_left_white"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>

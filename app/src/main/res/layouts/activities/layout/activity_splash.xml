@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_splash" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/activity_splash_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/activity_splash_bottom_pannel">
+
+
+        </android.support.v4.view.ViewPager>
+
+
+        <RelativeLayout
+            android:id="@+id/activity_splash_bottom_pannel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true">
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/activity_splash_back_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:padding="6dp"
+                    app:srcCompat="@drawable/arrow_left_ic" />
+
+                <TextView
+                    style="@style/SecondaryText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/splash_back"
+                    android:textColor="@color/colorSplashText" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:id="@+id/first_dot_image"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:scaleType="center"
+                        android:src="@drawable/selected_dot_ic" />
+
+                    <ImageView
+                        android:id="@+id/second_dot_image"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:scaleType="center"
+                        android:src="@drawable/unselected_dot_ic" />
+
+                    <ImageView
+                        android:id="@+id/third_dot_image"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:scaleType="center"
+                        android:src="@drawable/unselected_dot_ic" />
+
+                    <ImageView
+                        android:id="@+id/fourth_dot_image"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:scaleType="center"
+                        android:src="@drawable/unselected_dot_ic" />
+                    <ImageView
+                        android:id="@+id/fiveth_dot_image"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:scaleType="center"
+                        android:src="@drawable/unselected_dot_ic" />
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/activity_splash_next_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    style="@style/SecondaryText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/splash_next"
+                    android:textColor="@color/colorSplashText" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:padding="6dp"
+                    app:srcCompat="@drawable/arrow_right_ic" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

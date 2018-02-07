@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_create_plan">+ CREATE YOUR PLAN</string>
+
+    <string name="user_send_message">SEND MESSAGE</string>
+    <string name="user_follow">FOLLOW</string>
+    <string name="user_avoided_cigarettes">Avoided cigarettes</string>
+    <string name="user_saving">Saving</string>
+    <string name="user_no_smoke">No smoking days</string>
+    <string name="tab_feed_all">All</string>
+    <string name="tab_feed_following">Following</string>
+    <string name="tab_feed_sos">SOS</string>
+
+    <string name="favorite_tab_post">POSTS</string>
+    <string name="favorite_tab_article">ARTICLES</string>
+
+    <string name="fragment_about_hint">Click to wright something about you...</string>
+
+</resources>

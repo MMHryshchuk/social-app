@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_title" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_title"
+        android:layout_marginBottom="@dimen/bottom_panel_height"
+        android:background="@color/colorBackgroundBlue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <FrameLayout
+                    android:id="@+id/activity_health_progress_1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="15dp">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/activity_health_progress_bar_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cpb_background_progressbar_color="@color/colorBlackAlpha"
+                        app:cpb_background_progressbar_width="6dp"
+                        app:cpb_progress="0"
+                        app:cpb_progressbar_color="#44A86C"
+                        app:cpb_progressbar_width="6dp" />
+
+                    <TextView
+                        android:id="@+id/activity_health_progress_percent_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0%"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/activity_health_progress_1"
+                    android:padding="12dp"
+                    android:text="@string/health_description_1"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:alpha="0.1"
+                    android:background="@color/colorPrimaryWhite" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+
+                <FrameLayout
+                    android:id="@+id/activity_health_progress_2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="15dp">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/activity_health_progress_bar_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cpb_background_progressbar_color="@color/colorBlackAlpha"
+                        app:cpb_background_progressbar_width="6dp"
+                        app:cpb_progress="0"
+                        app:cpb_progressbar_color="#87BF57"
+                        app:cpb_progressbar_width="6dp" />
+
+                    <TextView
+                        android:id="@+id/activity_health_progress_percent_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0%"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/activity_health_progress_2"
+                    android:padding="12dp"
+                    android:text="@string/health_description_2"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:alpha="0.1"
+                    android:background="@color/colorPrimaryWhite" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <FrameLayout
+                    android:id="@+id/activity_health_progress_3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="15dp">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/activity_health_progress_bar_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cpb_background_progressbar_color="@color/colorBlackAlpha"
+                        app:cpb_background_progressbar_width="6dp"
+                        app:cpb_progress="0"
+                        app:cpb_progressbar_color="#F3AE48"
+                        app:cpb_progressbar_width="6dp" />
+
+                    <TextView
+                        android:id="@+id/activity_health_progress_percent_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0%"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/activity_health_progress_3"
+                    android:padding="12dp"
+                    android:text="@string/health_description_3"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:alpha="0.1"
+                    android:background="@color/colorPrimaryWhite" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+
+                <FrameLayout
+                    android:id="@+id/activity_health_progress_4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="15dp">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/activity_health_progress_bar_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cpb_background_progressbar_color="@color/colorBlackAlpha"
+                        app:cpb_background_progressbar_width="6dp"
+                        app:cpb_progress="0"
+                        app:cpb_progressbar_color="#FD8282"
+                        app:cpb_progressbar_width="6dp" />
+
+                    <TextView
+                        android:id="@+id/activity_health_progress_percent_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0%"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/activity_health_progress_4"
+                    android:padding="12dp"
+                    android:text="@string/health_description_4"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:alpha="0.1"
+                    android:background="@color/colorPrimaryWhite" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <FrameLayout
+                    android:id="@+id/activity_health_progress_5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="15dp">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/activity_health_progress_bar_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cpb_background_progressbar_color="@color/colorBlackAlpha"
+                        app:cpb_background_progressbar_width="6dp"
+                        app:cpb_progress="0"
+                        app:cpb_progressbar_color="#FD8282"
+                        app:cpb_progressbar_width="6dp" />
+
+                    <TextView
+                        android:id="@+id/activity_health_progress_percent_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0%"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/activity_health_progress_5"
+                    android:padding="12dp"
+                    android:text="@string/health_description_5"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:alpha="0.1"
+                    android:background="@color/colorPrimaryWhite" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <FrameLayout
+                    android:id="@+id/activity_health_progress_6"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="15dp">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/activity_health_progress_bar_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cpb_background_progressbar_color="@color/colorBlackAlpha"
+                        app:cpb_background_progressbar_width="6dp"
+                        app:cpb_progress="0"
+                        app:cpb_progressbar_color="#FD8282"
+                        app:cpb_progressbar_width="6dp" />
+
+                    <TextView
+                        android:id="@+id/activity_health_progress_percent_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0%"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/activity_health_progress_6"
+                    android:padding="12dp"
+                    android:text="@string/health_description_6"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:alpha="0.1"
+                    android:background="@color/colorPrimaryWhite" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <FrameLayout
+                    android:id="@+id/activity_health_progress_7"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="15dp">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/activity_health_progress_bar_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cpb_background_progressbar_color="@color/colorBlackAlpha"
+                        app:cpb_background_progressbar_width="6dp"
+                        app:cpb_progress="0"
+                        app:cpb_progressbar_color="#FD8282"
+                        app:cpb_progressbar_width="6dp" />
+
+                    <TextView
+                        android:id="@+id/activity_health_progress_percent_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0%"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/activity_health_progress_7"
+                    android:padding="12dp"
+                    android:text="@string/health_description_7"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:alpha="0.1"
+                    android:background="@color/colorPrimaryWhite" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <FrameLayout
+                    android:id="@+id/activity_health_progress_8"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="15dp">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/activity_health_progress_bar_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cpb_background_progressbar_color="@color/colorBlackAlpha"
+                        app:cpb_background_progressbar_width="6dp"
+                        app:cpb_progress="0"
+                        app:cpb_progressbar_color="#FD8282"
+                        app:cpb_progressbar_width="6dp" />
+
+                    <TextView
+                        android:id="@+id/activity_health_progress_percent_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0%"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/activity_health_progress_8"
+                    android:padding="12dp"
+                    android:text="@string/health_description_8"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:alpha="0.1"
+                    android:background="@color/colorPrimaryWhite" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <FrameLayout
+                    android:id="@+id/activity_health_progress_9"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="15dp">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/activity_health_progress_bar_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cpb_background_progressbar_color="@color/colorBlackAlpha"
+                        app:cpb_background_progressbar_width="6dp"
+                        app:cpb_progress="0"
+                        app:cpb_progressbar_color="#FD8282"
+                        app:cpb_progressbar_width="6dp" />
+
+                    <TextView
+                        android:id="@+id/activity_health_progress_percent_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0%"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/activity_health_progress_9"
+                    android:padding="12dp"
+                    android:text="@string/health_description_9"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:alpha="0.1"
+                    android:background="@color/colorPrimaryWhite" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <FrameLayout
+                    android:id="@+id/activity_health_progress_10"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="15dp">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/activity_health_progress_bar_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cpb_background_progressbar_color="@color/colorBlackAlpha"
+                        app:cpb_background_progressbar_width="6dp"
+                        app:cpb_progress="0"
+                        app:cpb_progressbar_color="#FD8282"
+                        app:cpb_progressbar_width="6dp" />
+
+                    <TextView
+                        android:id="@+id/activity_health_progress_percent_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0%"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/activity_health_progress_10"
+                    android:padding="12dp"
+                    android:text="@string/health_description_10"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:alpha="0.1"
+                    android:background="@color/colorPrimaryWhite" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <include layout="@layout/home_panel" />
+
+</RelativeLayout>

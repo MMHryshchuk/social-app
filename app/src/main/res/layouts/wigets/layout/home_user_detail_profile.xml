@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/home_user_detail_view"
+    android:layout_height="@dimen/activity_home_user_detail_view_height"
+    android:background="@drawable/feed_header_bg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_above="@+id/create_plan_button_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/home_user_detail_mask"
+            android:layout_centerVertical="true"
+            android:alpha="0.10"
+            android:background="@color/colorPrimaryBlack"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_home_user_detail_view_image_background_height"/>
+
+        <com.clearsoft.welivre.ui.wigets.RoundedImageView
+            android:id="@+id/home_user_detail_profile_avatar"
+            android:background="@drawable/default_contact"
+            android:layout_marginLeft="@dimen/activity_home_user_detail_view_image_margin_left"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/activity_home_user_detail_view_image_size"
+            android:layout_height="@dimen/activity_home_user_detail_view_image_size" />
+
+        <TextView
+            android:id="@+id/home_user_detail_title"
+            android:layout_marginLeft="@dimen/activity_home_user_detail_view_title_margin_left"
+            android:layout_above="@+id/home_user_detail_mask"
+            android:layout_toRightOf="@+id/home_user_detail_profile_avatar"
+            android:textColor="@color/colorPrimaryWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/home_user_detail_profile_avatar"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/home_user_detail_cigarettes"
+                android:layout_centerVertical="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:text="14600"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:text="Cigarettes  per year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:text="$4015"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="12sp"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:text="Loss pasdasder year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/create_plan_button_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_home_user_detail_view_create_plan_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPlanGreen">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/home_create_plan"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

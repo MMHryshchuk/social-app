@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_contact_followers_view_height_btn"
+        android:layout_margin="@dimen/activity_messenger_margin"
+        android:background="@drawable/round_messenger_secondary"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <TextView
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="Followers"
+            android:id="@+id/contacts_fragment_followers_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/round_messenger_btn_white" />
+
+
+        <TextView
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="Following"
+            android:id="@+id/contacts_fragment_following_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/round_messenger_btn_white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/fragment_contact_followers_view_margin_left"
+        android:background="@color/colorBlackAlpha"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_contact_followers_view_height">
+
+        <TextView
+            android:id="@+id/contacts_fragment_follow_txt"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorPrimaryWhite"
+            android:text="Followers"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorPrimaryWhite"
+            android:text="6"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/contacts_fragment_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

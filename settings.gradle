@@ -1,0 +1,1 @@
+include ':app', ':daogen', ':facebook', ':country_picker', ':generator', ':firebase_plugin', ':sdk'

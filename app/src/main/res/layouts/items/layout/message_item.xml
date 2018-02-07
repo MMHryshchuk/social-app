@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <com.clearsoft.welivre.ui.wigets.RoundedImageView
+        android:id="@+id/message_item_image"
+        android:layout_gravity="bottom"
+        android:layout_margin="12dp"
+        android:layout_width="@dimen/activity_messenger_image_size"
+        android:layout_height="@dimen/activity_messenger_image_size" />
+
+    <TextView
+        android:textColor="@color/colorPrimaryBlack"
+        android:id="@+id/message_item_txt"
+        android:minLines="2"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:background="@drawable/message_bg"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

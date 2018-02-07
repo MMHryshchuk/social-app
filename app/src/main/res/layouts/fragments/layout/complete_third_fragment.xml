@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_complete">
+
+    <ScrollView
+        android:id="@+id/complete_third_fragment_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/complete_fragment_margin_right_left"
+        android:layout_marginRight="@dimen/complete_fragment_margin_right_left"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:gravity="center_horizontal"
+            android:isScrollContainer="true"
+            android:orientation="vertical"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="32dp"
+                android:text="@string/complete_title"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textSize="17.5sp" />
+
+            <include layout="@layout/complete_third_view" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/complete_fragment_second_cell_height"
+                    android:layout_marginTop="@dimen/complete_fragment_cell_margin_top"
+                    android:background="@drawable/question_cell_bg">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/complete_fragment_cell_title_height"
+                            android:layout_gravity="center"
+                            android:gravity="center_vertical"
+                            android:text="@string/complete_third_question_1"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/complete_fragment_cell_title_size"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <EditText
+                                android:id="@+id/complete_third_age_edit_text"
+                                android:layout_width="@dimen/complete_fragment_cell_edit_text_width"
+                                android:layout_height="@dimen/complete_fragment_cell_edit_text_height"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/round_stroke_btn_grey"
+                                android:gravity="center"
+                                android:hint="years"
+                                android:inputType="number"
+                                android:textColor="@color/colorPrimaryWhite"
+                                android:textColorHint="@color/colorSplashText"
+                                android:textSize="@dimen/complete_fragment_cell_edit_text_size" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/complete_fragment_second_cell_height"
+                    android:layout_marginTop="@dimen/complete_fragment_cell_margin_top"
+                    android:background="@drawable/question_cell_bg">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/complete_fragment_cell_title_height"
+                            android:layout_gravity="center"
+                            android:gravity="center_vertical"
+                            android:text="@string/complete_third_question_2"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/complete_fragment_cell_title_size"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:id="@+id/complete_third_fragment_date_btn"
+                                android:layout_width="@dimen/complete_fragment_third_date_edit_text_weight"
+                                android:layout_height="@dimen/complete_fragment_cell_edit_text_height"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/round_stroke_btn_grey">
+
+
+
+                                    <TextView
+                                        android:layout_marginRight="15dp"
+                                        android:layout_toLeftOf="@+id/complete_third_fragment_icon_calendar"
+                                        android:id="@+id/complete_third_date_text"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textColor="@color/colorPrimaryWhite"
+                                        android:textSize="@dimen/complete_fragment_cell_edit_text_size" />
+
+                                    <ImageView
+                                        android:id="@+id/complete_third_fragment_icon_calendar"
+                                        android:layout_centerVertical="true"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_width="17dp"
+                                        android:layout_height="17dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginRight="20dp"
+                                        android:src="@drawable/calendar_ic_white" />
+
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/complete_fragment_second_cell_height"
+                    android:layout_marginTop="@dimen/complete_fragment_cell_margin_top"
+                    android:background="@drawable/question_cell_bg">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/complete_fragment_cell_title_height"
+                            android:layout_gravity="center"
+                            android:gravity="center_vertical"
+                            android:text="@string/complete_third_question_3"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/complete_fragment_cell_title_size"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:id="@+id/complete_third_gender_btn"
+                                android:layout_width="@dimen/complete_fragment_cell_edit_text_width"
+                                android:layout_height="@dimen/complete_fragment_cell_edit_text_height"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/round_stroke_btn_grey">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_centerInParent="true">
+
+                                    <TextView
+                                        android:id="@+id/complete_third_sex_text"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:text="Male"
+                                        android:textColor="@color/colorPrimaryWhite"
+                                        android:textSize="@dimen/complete_fragment_cell_edit_text_size" />
+
+                                    <ImageView
+                                        android:layout_width="8dp"
+                                        android:layout_height="12dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginLeft="15dp"
+                                        android:src="@drawable/arrow_above_and_below" />
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/complete_third_fragment_next"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/round_stroke_btn_white"
+                    android:gravity="center"
+                    android:text="@string/complete_next"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/complete_register_third_progress_frame"
+        android:background="@color/colorBackgroundTransparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.clearsoft.welivre.ui.wigets.WhiteProgressBar
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </FrameLayout>
+
+</RelativeLayout>

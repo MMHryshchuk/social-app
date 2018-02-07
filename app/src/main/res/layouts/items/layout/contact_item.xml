@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <com.clearsoft.welivre.ui.wigets.RoundedImageView
+        android:background="@drawable/default_contact"
+        android:layout_centerVertical="true"
+        android:id="@+id/chat_list_item_image"
+        android:layout_width="@dimen/activity_messenger_image_size"
+        android:layout_height="@dimen/activity_messenger_image_size"
+        android:layout_marginLeft="@dimen/activity_messenger_margin"
+        android:layout_marginRight="@dimen/activity_messenger_margin" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/chat_list_item_image"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingRight="100dp"
+                android:id="@+id/chat_list_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aaron Armstrong"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textSize="15sp" />
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:maxLines="2"
+            android:id="@+id/chat_list_item_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="423 friends"
+            android:textColor="@color/colorPrimaryWhite"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginRight="@dimen/contact_item_margin_right"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        android:background="@drawable/round_stroke_btn_white"
+        android:textColor="@color/colorPrimaryWhite"
+        android:text="UNFOLLOW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:alpha="0.2"
+        android:background="@color/colorPrimaryWhite"
+        android:layout_toRightOf="@id/chat_list_item_image"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</RelativeLayout>

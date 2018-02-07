@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/article_view"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryWhite">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_marginBottom="@dimen/bottom_panel_height"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_article_image_height"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/art_example_image" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_article_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:maxLines="3"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/activity_article_btn_frame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/activity_article_title_left_margin"
+                    android:text="What are the benefits of stop smoking"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/activity_article_btn_frame"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size"
+                        android:padding="@dimen/icon_padding"
+                        android:layout_gravity="center"
+                        android:src="@drawable/share_ic_black" />
+
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size"
+                        android:padding="@dimen/icon_padding"
+                        android:src="@drawable/flag_ic" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_article_margin"
+                    android:layout_marginLeft="@dimen/activity_article_margin"
+                    android:text="\tThis special motivation will strengthen you at the moment you need most, click to record a video, an audio or take a picture of yourself or a special person. Talk about why you should stand firm and do not go back to smoking This special motivation will strengthen you at the moment you need most, click to record a video, an audio or take a picture of yourself or a special person. \n\n\tTalk about why you should stand firm and do not go back to smoking This special motivation will strengthen you at the moment you need most, click to record a video, an audio or take a picture of yourself or a special person. Talk about why you should stand firm and do not go back to smoking" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:alpha="0.15"
+                        android:text="RATE THIS ARTICLE"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:alpha="0.15"
+                        android:background="@android:color/black" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/star_size"
+                            android:layout_height="@dimen/star_size"
+                            android:layout_marginLeft="@dimen/star_margin"
+                            android:layout_marginRight="@dimen/star_margin"
+                            android:src="@drawable/star_fill_ic" />
+
+                        <ImageView
+                            android:layout_width="@dimen/star_size"
+                            android:layout_height="@dimen/star_size"
+                            android:layout_marginLeft="@dimen/star_margin"
+                            android:layout_marginRight="@dimen/star_margin"
+                            android:src="@drawable/star_fill_ic" />
+
+                        <ImageView
+                            android:layout_width="@dimen/star_size"
+                            android:layout_height="@dimen/star_size"
+                            android:layout_marginLeft="@dimen/star_margin"
+                            android:layout_marginRight="@dimen/star_margin"
+                            android:src="@drawable/star_fill_ic" />
+
+                        <ImageView
+                            android:layout_width="@dimen/star_size"
+                            android:layout_height="@dimen/star_size"
+                            android:layout_marginLeft="@dimen/star_margin"
+                            android:layout_marginRight="@dimen/star_margin"
+                            android:src="@drawable/star_fill_ic" />
+
+                        <ImageView
+                            android:layout_width="@dimen/star_size"
+                            android:layout_height="@dimen/star_size"
+                            android:layout_marginLeft="@dimen/star_margin"
+                            android:layout_marginRight="@dimen/star_margin"
+                            android:src="@drawable/star_blank_ic" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_marginLeft="@dimen/activity_article_margin"
+            android:id="@+id/activity_article_back_btn"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:paddingRight="@dimen/icon_padding"
+            app:srcCompat="@drawable/ic_left_white" />
+
+
+
+    <include layout="@layout/home_panel"/>
+
+</RelativeLayout>
+

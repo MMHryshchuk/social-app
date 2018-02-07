@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Welivre</string>
+    <string name="google_web_client_id">867716115685-b5lnson4mug0hn8phmkdl7blejp0rqes.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">105331470061060</string>
+    <string name="fb_login_protocol_scheme">fb105331470061060</string>
+    <string name="pref_key_transition_time" translatable="false">pref_key_transition_time</string>
+
+    <string name="min">min</string>
+    <string name="sec">sec</string>
+    <string name="hour">h</string>
+
+</resources>

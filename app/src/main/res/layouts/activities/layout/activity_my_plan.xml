@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_plan"/>
+
+    <FrameLayout
+        android:background="@color/colorBackgroundBlue"
+        android:layout_below="@+id/toolbar_plan"
+        android:layout_marginBottom="@dimen/bottom_panel_height"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <include layout="@layout/plan_date_view"/>
+
+                <include layout="@layout/motivation_view"/>
+
+                <include layout="@layout/assistances_view"/>
+
+                <include layout="@layout/triggers_view"/>
+
+                <include layout="@layout/cravings_view"/>
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </FrameLayout>
+
+    <include layout="@layout/home_panel"/>
+
+</RelativeLayout>

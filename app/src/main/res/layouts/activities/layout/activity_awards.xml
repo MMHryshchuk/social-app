@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+   <include layout="@layout/toolbar_title"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_title"
+        android:layout_marginBottom="@dimen/bottom_panel_height"
+        android:background="@color/colorBackgroundBlue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_awards_margin_top"
+            android:orientation="vertical">
+
+            <com.clearsoft.welivre.ui.wigets.RoundedImageView
+                android:layout_width="@dimen/activity_home_user_detail_view_image_size"
+                android:layout_height="@dimen/activity_home_user_detail_view_image_size"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/default_contact" />
+
+            <TextView
+                android:id="@+id/activity_awards_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_awards_margin_top"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_awards_margin_top"
+                android:gravity="center"
+                android:text="RECEIVED AWARDS"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_awards_margin_top"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/money_bag_ic"
+                        android:layout_margin="@dimen/activity_awards_image_margin"
+                        android:layout_width="@dimen/activity_awards_image_size"
+                        android:layout_height="@dimen/activity_awards_image_size"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:text="150"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:alpha="0.6"
+                        android:text="Avoided cigarettes"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/money_bag_ic"
+                        android:layout_margin="@dimen/activity_awards_image_margin"
+                        android:layout_width="@dimen/activity_awards_image_size"
+                        android:layout_height="@dimen/activity_awards_image_size"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:text="150"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:alpha="0.6"
+                        android:text="Avoided cigarettes"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/money_bag_ic"
+                        android:layout_margin="@dimen/activity_awards_image_margin"
+                        android:layout_width="@dimen/activity_awards_image_size"
+                        android:layout_height="@dimen/activity_awards_image_size"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:text="150"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:alpha="0.6"
+                        android:text="Avoided cigarettes"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_awards_margin_top"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/money_bag_ic"
+                        android:layout_margin="@dimen/activity_awards_image_margin"
+                        android:layout_width="@dimen/activity_awards_image_size"
+                        android:layout_height="@dimen/activity_awards_image_size"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:text="150"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:alpha="0.6"
+                        android:text="Avoided cigarettes"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/money_bag_ic"
+                        android:layout_margin="@dimen/activity_awards_image_margin"
+                        android:layout_width="@dimen/activity_awards_image_size"
+                        android:layout_height="@dimen/activity_awards_image_size"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:text="150"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:alpha="0.6"
+                        android:text="Avoided cigarettes"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/money_bag_ic"
+                        android:layout_margin="@dimen/activity_awards_image_margin"
+                        android:layout_width="@dimen/activity_awards_image_size"
+                        android:layout_height="@dimen/activity_awards_image_size"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:text="150"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:alpha="0.6"
+                        android:text="Avoided cigarettes"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <View
+                android:layout_marginTop="@dimen/activity_awards_margin_top"
+                android:alpha="0.3"
+                android:background="@color/colorPrimaryBlack"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+            <TextView
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryWhite"
+                android:layout_marginTop="@dimen/activity_awards_margin_top"
+                android:text="NEXT TO RECIEVE"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <include layout="@layout/home_panel" />
+
+</RelativeLayout>

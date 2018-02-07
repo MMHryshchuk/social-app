@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="SecondaryText">
+        <item name="android:textSize">@dimen/secondary_text</item>
+        <item name="android:textColor">@color/colorPrimaryGrey</item>
+        <item name="android:textColorHint">@color/colorSecondaryDarkText</item>
+    </style>
+
+    <style name="PrimaryText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/primary_text</item>
+        <item name="android:textColor">@color/colorPrimaryGrey</item>
+    </style>
+
+</resources>

@@ -1,0 +1,23 @@
+<tabs>
+    <tab
+        icon="@drawable/home_tab_icon"
+        id="@+id/tab_home"
+        title="Feed" />
+    <tab
+        icon="@drawable/training_tab_icon"
+        id="@+id/tab_training"
+        title="Training" />
+    <tab
+        icon="@drawable/sos_tab_icon"
+        id="@+id/tab_sos"
+        title="SOS" />
+    <tab
+        icon="@drawable/messenger_tab_icon"
+        id="@+id/tab_messenger"
+        title="Messenger" />
+
+    <tab
+        icon="@drawable/more_tab_icon"
+        id="@+id/tab_more"
+        title="More" />
+</tabs>

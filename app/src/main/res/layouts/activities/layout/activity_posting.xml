@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundTransparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryWhite">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/activit_posting_close_btn"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/ic_close_grey" />
+
+        <LinearLayout
+            android:id="@+id/activity_posting_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <com.clearsoft.welivre.ui.wigets.RoundedImageView
+                android:id="@+id/activity_posting_user_img"
+                android:layout_width="@dimen/activity_home_user_view_icon_size"
+                android:layout_height="@dimen/activity_home_user_view_icon_size"
+                android:background="@drawable/default_contact" />
+
+            <TextView
+                android:id="@+id/activity_posting_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:gravity="center_vertical"
+                android:text="Eduardo John"
+                android:textColor="@color/colorPrimaryBlack"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/activity_posting_frame"
+            android:layout_marginBottom="50dp">
+
+            <EditText
+                android:gravity="top"
+                android:lines="10"
+                android:id="@+id/activity_posting_post_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@null" />
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+        <FrameLayout
+            android:background="@color/colorBackDefault"
+            android:id="@+id/activity_posting_image_frame"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_above="@+id/activity_posting_bottom_panel"
+            android:visibility="gone">
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/activity_posting_image_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"/>
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_gravity="right"
+                    android:id="@+id/activity_image_delete_image_post"
+                    app:srcCompat="@drawable/ic_close_round"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp" />
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_posting_bottom_panel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorBackDefault">
+
+            <TextView
+                android:id="@+id/activity_posting_post_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/posting_post_bg"
+                android:paddingBottom="6dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="6dp"
+                android:text="Post"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/activity_posting_camera"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_camera_grey" />
+
+            <LinearLayout
+                android:id="@+id/activity_posting_sos_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/activity_posting_camera"
+                android:background="@drawable/posting_sos_bg"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_sos_tabic_inactive" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:text="SOS"
+                    android:textColor="@color/colorPrimaryGrey"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:visibility="gone"
+            android:id="@+id/activit_posting_progress_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackgroundTransparent">
+
+            <com.clearsoft.welivre.ui.wigets.WhiteProgressBar
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

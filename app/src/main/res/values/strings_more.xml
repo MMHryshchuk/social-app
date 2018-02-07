@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="activity_more_situation_1">I smoked only one cigarette!</string>
+    <string name="activity_more_situation_2">I smoked only few cigarettes in a special event. (Party, bar wit friends…)</string>
+    <string name="activity_more_situation_3">I`m smoking less, but I`ve been smoking for more than 3 days.</string>
+    <string name="activity_more_situation_4">I`m smoking the same amount I smoked before i stopped, more then 3 days.</string>
+
+    <string name="activity_more_second_txt">Don`t worry, it can take a few tries to quit smoking for good. It can be helpful to commit yourself talking to your friends. Make a post on Weivre or chat with friend. Promise to yourself and other that you will not even have a simple rule ou can guarantee that you won`t start smoking again.</string>
+    <string name="activity_more_second_promise_btn">Post a promise</string>
+    <string name="activity_more_second_chat_btn">Chat with someone</string>
+    <string name="activity_more_second_check_plan_btn">Check your Plan</string>
+    <string name="activity_more_second_restart_plan_btn">Restart my Plan</string>
+    <string name="activity_more_second_second_txt">The main reason is giving in to cravings. These are powerful urges to smoke, often triggered by stress, seeing other people smoking, getting drunk or emotional events such as arguments.</string>
+    <string name="activity_more_third_txt">Stay focus, and NEVER give up! "\n"
+    Click in the button below to restart you plan.</string>
+
+
+    <string name="activity_motivations_my_motivations">My motivations</string>
+
+    <string name="activity_plan_my_assistance">My assistances</string>
+    <string name="activity_plan_my_date">My Date</string>
+    <string name="activity_plan_my_date_txt">This special date will be marked in the history as the day that you was released from the cigarette</string>
+    <string name="activity_plan_my_triggers">My triggers</string>
+    <string name="activity_plan_my_triggers_txt">In ever great endeavor, there are times that can be great pitfalls. Always be aware of your triggers, they can put you in difficult situations. Avoid them whenever is possible, and when it is not possible to avoid them, be aware of them, and cultivate your inner strength, drawing inspiration from your motivations to remain strong in te battle against the cigarette.</string>
+    <string name="activity_plan_my_cravings">My Cravings</string>
+    <string name="activity_plan_my_cravings_txt">Cravings are conditionings, emotions nad motives that make you smoke, so it is important that you bring solution to your cravings, thus easing the process of keeping yourself cigarette free. See below solutions to easy your day without cigarettes.</string>
+
+    <string name="activity_plan_motivation_name_1">To reduce my risk of stroke</string>
+    <string name="activity_plan_motivation_name_2">To protect my family from second-hand smoke</string>
+    <string name="activity_plan_motivation_name_3">To reduce my risk of heart disease</string>
+    <string name="activity_plan_motivation_name_4">To reduce my risk of stroke</string>
+    <string name="activity_plan_motivation_name_5">To prove that I can stop</string>
+    <string name="activity_plan_motivation_name_6">Save money</string>
+    <string name="activity_plan_motivation_name_7">To live a long and healthy life</string>
+    <string name="activity_plan_motivation_name_8">To lower my blood pressure.</string>
+    <string name="activity_plan_motivation_name_9">I want to be better at playing sports</string>
+    <string name="activity_plan_motivation_name_10">To have a better smell</string>
+    <string name="activity_plan_motivation_name_11">To get a rid of the cigarette breath</string>
+    <string name="activity_plan_motivation_name_12">To decrease my risk of diabetes</string>
+    <string name="activity_plan_motivation_name_13">To reduce my risk of cancer</string>
+    <string name="activity_plan_motivation_name_14">To protect my pet from passive smoking</string>
+    <string name="activity_plan_motivation_name_15">My partner wants me to stop</string>
+    <string name="activity_plan_motivation_name_16">I want to stop when i`m healthy</string>
+    <string name="activity_plan_motivation_name_17">I`m tried of getting bronchitis!</string>
+    <string name="activity_plan_motivation_name_18">I want to be a better example for my children</string>
+    <string name="activity_plan_motivation_name_19">I want to have more energy and endurance</string>
+    <string name="activity_plan_motivation_name_20">I`m tried of getting bronchitis!</string>
+    <string name="activity_plan_motivation_name_21">I want to be better at playing sports.</string>
+    <string name="activity_plan_motivation_name_22">I want to have clean and white teeth</string>
+    <string name="activity_plan_motivation_name_23">I want to get in shape</string>
+    <string name="activity_plan_motivation_name_24">To play more with my kids</string>
+    <string name="activity_plan_motivation_name_25">I want my freedom back</string>
+    <string name="activity_plan_motivation_name_26">I want a healthy and beautiful skin</string>
+    <string name="activity_plan_motivation_name_27">I promise to myself that i would stop</string>
+    <string name="activity_plan_motivation_name_28">I do not want my kids to start smoking.</string>
+    <string name="activity_plan_motivation_name_29">Get better from surgery</string>
+
+    <string name="activity_settings_privacy_assistance">Display your Assistances?</string>
+    <string name="activity_settings_privacy_motivations">Display your Motivations?</string>
+    <string name="activity_settings_privacy_triggers">Display your Triggers</string>
+    <string name="activity_settings_privacy_cravings">Display your Cravings?</string>
+
+    <string name="activity_plan_cravings_title_1">I need to keep my hand busy.</string>
+    <string name="activity_plan_cravings_title_2">When I`m stressed I need to smoke</string>
+    <string name="activity_plan_cravings_title_3">I get anxious when I`m not smoking</string>
+    <string name="activity_plan_cravings_title_4">Is smoking pleasurable and relaxing?</string>
+    <string name="activity_plan_cravings_title_5">I need to increase my energy</string>
+
+    <string name="activity_plan_cravings_txt_1">If for you to hold a cigarette is a conditioning, replace the cigarette with another object, such as a straw. Sometimes breathing through the straw can make you feel relieved of this habit. It is also recommended to use the dry cinnamon, that besides being a natural straw, has a plavor that you leave your breath fresh and free from the stench of the unpleasant smoke that the cigarette produces.</string>
+    <string name="activity_plan_cravings_txt_2">Stress is the evil of the century, sometimes very difficult not to have a day when we do not have some kind of stress. When you fee stressed, take a brief break in your day to have a relaxed conversation with friends, or take time to meditate. Meditation is a scientifically proven millenarian practice to deduce stress and anxiety, helping all smokers who intend to stop smoking.</string>
+    <string name="activity_plan_cravings_txt_3">If you get angry and anxious without smoking, of course your are feeling symptoms of nicotine withdrawl, and sso why don`t you use what the science has to offer? The various types of nicotine replacement are effective, scientifically validated and safe to use. Consult our doctor or pharmacist before starting any medication.</string>
+    <string name="activity_plan_cravings_txt_4">No! Smoking is only pleasurable and relaxing for the addicted! Try to remember the first time you smoked, it was wonderful? NO! It was disgusting, but you continued smoking because some social pretext or influence and started k=liking smoking. But actually, ou only started to tolerade smoking and became addicted to the nicotine. Nicotine is not a recreational drug, because the effect is too little to the first user to feel, but is one of the most addictive drugs. Now that you know that you don`t like smoking, you can try to use something to relax you a little bit, like an chamomilla tea of some passiflora supplements. Consult an doctor to recommend supplements.</string>
+    <string name="activity_plan_cravings_txt_5">There are a lot of smart ways to increase your energy, you can try supplements, teas, and vitamins to boost your energy, but the best way to have more energy is to start practice some exercice. Have a small walk on your neighborhood, try to do that every day on your free time, and each day try to increase a little bit the distance and speed. Don`t overdone, remember that you need to archive step by step to have a solid gains, Try to involve some family member or friends, and enjoy their company. Start the day with an exercice make your day more productive and happy.</string>
+
+    <string name="activity_plan_assistances_title_1">Nicotine patch</string>
+    <string name="activity_plan_assistances_title_2">Acupuncture</string>
+    <string name="activity_plan_assistances_title_3">Buproprion</string>
+    <string name="activity_plan_assistances_title_4">Champix</string>
+    <string name="activity_plan_assistances_title_5">Hypnosis</string>
+    <string name="activity_plan_assistances_title_6">Nicotine Gum</string>
+
+    <string name="activity_plan_triggers_title_1">Feeling Stressed</string>
+    <string name="activity_plan_triggers_title_2">Feeling Lonely</string>
+    <string name="activity_plan_triggers_title_3">Feeling anxious</string>
+    <string name="activity_plan_triggers_title_4">Feeling Bored</string>
+    <string name="activity_plan_triggers_title_5">Feeling Depressive</string>
+    <string name="activity_plan_triggers_title_6">Feeling Angry</string>
+    <string name="activity_plan_triggers_title_7">Talking on the phone</string>
+    <string name="activity_plan_triggers_title_8">Drinking alcohol</string>
+    <string name="activity_plan_triggers_title_9">Watching TV</string>
+    <string name="activity_plan_triggers_title_10">Driving</string>
+    <string name="activity_plan_triggers_title_11">Finishing a meal</string>
+    <string name="activity_plan_triggers_title_12">Drinking coffee</string>
+    <string name="activity_plan_triggers_title_13">Going to a bar</string>
+    <string name="activity_plan_triggers_title_14">Seeing someone else smoke</string>
+
+    <string name="activity_more_about_version">VERSION 1.0 </string>
+    <string name="activity_more_about_txt">Smoking causes 1 in 5 deaths according to the Centers for Disease Control and Prevention and just trying to quit is worth a shot! But remember, you don’t have to do it alone. WeLivre was created with the goal of being a community for those with the same goal of being free from cigarette addiction. /n/n
+        We are a community that offers support and information for those trying to kick the deadliest habit in the world. The idea is that the participants will write and share their thoughts, emotions, photos and processes through the journey of stop smoking. This is often considered the best way to reduce stress and get your thoughts onto "paper" instead of in your mind. Not to mention there are real rewards for contributing your story of quitting./n/n
+        In addition, WeLivre provides you indicators based on the World Health Organization on your process of health improvement and a list of achievements that are unlocked one by one as the time goes by, motivating you to achieve your goal. In addition, we have the SOS tool that helps in times of craving./n/n
+        Our goal is to be a platform that unites people so they can benefit each other by creating a global circle of support and encouragement that leads to a gradual increase in well-being and happiness in people\'s lives and in the world.</string>
+
+
+
+</resources>

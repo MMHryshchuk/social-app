@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_user_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/activity_home_user_view_height"
+    android:background="@color/colorListBackground">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/feed_header_bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/activity_home_user_view_margin_top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="28dp"
+            android:alpha="0.23"
+            android:background="@color/colorPrimaryBlack">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/home_user_view_user_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.clearsoft.welivre.ui.wigets.RoundedImageView
+                    android:id="@+id/home_user_view_avatar_image"
+                    android:layout_width="@dimen/activity_home_user_view_image_size"
+                    android:layout_height="@dimen/activity_home_user_view_image_size"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/default_contact" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/home_user_view_hello_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Good Morning!"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/home_user_view_name_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.6"
+                        android:text="Edurado John"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_user_view_awards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_home_user_view_icon_margin_right">
+
+                <ImageView
+                    android:layout_width="@dimen/activity_home_user_view_icon_size"
+                    android:layout_height="@dimen/activity_home_user_view_icon_size"
+                    android:padding="@dimen/activity_home_user_view_icon_padding"
+                    android:src="@drawable/tropy_ic" />
+
+                <ImageView
+                    android:layout_width="@dimen/activity_home_user_view_icon_size"
+                    android:layout_height="@dimen/activity_home_user_view_icon_size"
+                    android:padding="@dimen/activity_home_user_view_icon_padding"
+                    android:src="@drawable/money_bag_ic" />
+
+                <ImageView
+                    android:layout_width="@dimen/activity_home_user_view_icon_size"
+                    android:layout_height="@dimen/activity_home_user_view_icon_size"
+                    android:padding="@dimen/activity_home_user_view_icon_padding"
+                    android:src="@drawable/time_calc_ic" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_home_user_view_panel_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/activity_home_user_view_panel_padding_top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:text="15"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:alpha="0.6"
+                    android:text="Motivations"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="3dp"
+                android:alpha="0.5"
+                android:background="@color/colorPrimaryWhite" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/home_user_view_saving_btn"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/activity_home_user_view_panel_padding_top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="$650"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:alpha="0.6"
+                    android:text="Anual Saving"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="3dp"
+                android:alpha="0.3"
+                android:background="@color/colorPrimaryWhite" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/activity_home_user_view_panel_padding_top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:text="30"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:alpha="0.6"
+                    android:text="Days to Stop"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

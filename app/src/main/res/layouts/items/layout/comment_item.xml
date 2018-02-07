@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimaryWhite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.clearsoft.welivre.ui.wigets.RoundedImageView
+
+        android:src="@drawable/default_contact"
+        android:id="@+id/comment_item_user_image"
+        android:layout_margin="12dp"
+        android:layout_width="@dimen/activity_messenger_image_size"
+        android:layout_height="@dimen/activity_messenger_image_size" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/comment_item_user_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/activity_comment_item_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Alexandra Jones"
+                android:layout_marginRight="@dimen/activity_comment_item_margin"
+                android:id="@+id/comment_item_user_name"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/clock_ic_blue"/>
+
+            <TextView
+                android:text="15 min ago"
+                android:id="@+id/comment_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textSize="11sp"
+                android:textColor="#616161"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:text="also need to comlete this movement to do do lwse"
+            android:id="@+id/comment_item_comment_txt"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

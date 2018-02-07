@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "983067003426",
+    "firebase_url": "https://welivre-android.firebaseio.com",
+    "project_id": "welivre-android",
+    "storage_bucket": "welivre-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983067003426:android:cb968d9a50833bd3",
+        "android_client_info": {
+          "package_name": "com.clearsoft.welivre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983067003426-oaaq0ged5mmq742u56trkpji25v6ith6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZt_F_lUi8lbuULCI4aJumIkBh61tP3b4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

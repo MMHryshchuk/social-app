@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="auth_or">OR</string>
+    <string name="auth_email">email</string>
+    <string name="auth_password">password</string>
+    <string name="auth_name">name</string>
+    <string name="auth_login_btn">LOG IN</string>
+    <string name="auth_login_forgot_btn">Forgot Password?</string>
+    <string name="auth_login_create_btn">Create an account</string>
+    <string name="auth_reset_btn">RECOVER MY PASSWORD</string>
+    <string name="auth_back_btn">Back</string>
+    <string name="auth_register_btn"> CREATE ACCOUNT</string>
+    <string name="auth_register_have_acc_btn">Already have an account</string>
+
+    <string name="complete_next">NEXT</string>
+    <string name="complete_title">Complete your registration</string>
+    <string name="complete_first_title">What situation are you in?</string>
+    <string name="complete_first_choice_1">I do not think about quitting smoking.</string>
+    <string name="complete_first_choice_2">I intend to quit smoking one day.</string>
+    <string name="complete_first_choice_3">I plan on setting a date to stop But i do not know when yet.</string>
+    <string name="complete_first_choice_4">I want to quit smoking next month.</string>
+    <string name="complete_first_choice_5">I already quit smoking.</string>
+    <string name="complete_first_choice_6">I tried to stop recently, but i came back.</string>
+
+    <string name="complete_second_question_1">How many cigarettes do you smoke per day?</string>
+    <string name="complete_second_question_2">How much our cigarette pack cost?</string>
+    <string name="complete_second_question_3">How long after waking do you smoke the first cigarette</string>
+
+    <string name="complete_third_question_1">At what age did you start smoking?</string>
+    <string name="complete_third_question_2">What is your date of birth?</string>
+    <string name="complete_third_question_3">What is your gender?</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="health_description_1">After 20 minutes without smoking, your blood pressure and heart rate return to normal.</string>
+    <string name="health_description_2">After 2 hours, there in more nicotine circulating in the blood</string>
+    <string name="health_description_3">After 8 hours, the level of oxygen in the blood normalizes. </string>
+    <string name="health_description_4">After 12 to 24 hours without smoking, the lungs work better and blood carbon monoxide levels return to normal. </string>
+    <string name="health_description_5">After two days, the smell already perceives the smells better and the taste alread taste better the food. </string>
+    <string name="health_description_6">After 3 weeks, breathing becomes easier and circulation improves.</string>
+    <string name="health_description_7">After 1 month, the risk of having a heart attack begins to fall. And your lung function starts to improve.</string>
+    <string name="health_description_8">After 1 year, the risk of death from heart attack is cut in half.</string>
+    <string name="health_description_9">After 2 to 5 years, your stroke risk falls to the level of someone who has never smoked.</string>
+    <string name="health_description_10">After 10 years, the risk of heart attack will be the same as people who never smoked</string>
+
+</resources>
